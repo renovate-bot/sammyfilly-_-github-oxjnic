@@ -164,8 +164,8 @@ devDependencies:
     specifier: ^2.8.7
     version: 2.8.7
   solid-mdx:
-    specifier: ^0.0.6
-    version: 0.0.6(solid-js@1.7.6)(vite@4.2.1)
+    specifier: ^0.0.7
+    version: 0.0.7(solid-js@1.7.6)(vite@4.2.1)
   svgo:
     specifier: ^3.0.0
     version: 3.0.0
@@ -6270,8 +6270,8 @@ packages:
       solid-js: 1.7.6
     dev: false
 
-  /solid-mdx@0.0.6(solid-js@1.7.6)(vite@4.2.1):
-    resolution: {integrity: sha512-SDr+iOqxvB7ktdjrwgKLCLkJK43J+TQjoYmesHxmZHXtn6W+a5NRqWgBcybsSP0noHa2co1plSjuPYU4bdtklQ==}
+  /solid-mdx@0.0.7(solid-js@1.7.6)(vite@4.2.1):
+    resolution: {integrity: sha512-dYKGOu5ZiaX3sfEMZYtfyXm30u33kF+T/pr67CMeyHzENDkWD3st4XEJ12Akp0J0PG9jzyHe5sAAKEXSnEcDEw==}
     peerDependencies:
       solid-js: 1.7.6
       vite: '*'
@@ -7236,6 +7236,7 @@ packages:
 
   /workbox-google-analytics@6.5.4:
     resolution: {integrity: sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.4
       workbox-core: 6.5.4

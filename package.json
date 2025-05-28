@@ -75,7 +75,7 @@
     "patch-package": "^6.5.1",
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
-    "solid-mdx": "^0.0.6",
+    "solid-mdx": "^0.0.7",
     "svgo": "^3.0.0",
     "tailwindcss": "^3.3.1",
     "tailwindcss-dir": "^4.0.0",
