@@ -104,8 +104,8 @@ dependencies:
 
 devDependencies:
   '@aminya/minijson':
-    specifier: ^0.6.2
-    version: 0.6.2
+    specifier: ^1.0.0
+    version: 1.1.3
   '@mdx-js/rollup':
     specifier: ^2.3.0
     version: 2.3.0(rollup@3.21.6)
@@ -196,8 +196,8 @@ devDependencies:
 
 packages:
 
-  /@aminya/minijson@0.6.2:
-    resolution: {integrity: sha512-6qcgamFpKp9fwpo06dfx4jUehb4UETKfgGGa/u/wybmmnZ2BNTluy9iW1lwPNCb2mVBCx9pRnKh2OqDZrfLvlw==}
+  /@aminya/minijson@1.1.3:
+    resolution: {integrity: sha512-Pljm2JCzzn95+569Ij8r2blecqlUMO7v2xQN6Vd7InvfVXcIh7oTykEkwoxUAXRGVa0OsU0cE72+2Z5Cm8i0Mw==}
     hasBin: true
     dependencies:
       jsonminify: 0.4.2
@@ -7236,6 +7236,7 @@ packages:
 
   /workbox-google-analytics@6.5.4:
     resolution: {integrity: sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.4
       workbox-core: 6.5.4
