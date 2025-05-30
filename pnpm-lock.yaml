@@ -179,8 +179,8 @@ devDependencies:
     specifier: ^0.9.0
     version: 0.9.0
   terser-config-atomic:
-    specifier: ^0.1.1
-    version: 0.1.1
+    specifier: ^1.0.0
+    version: 1.0.0
   typescript:
     specifier: ^4.9.5
     version: 4.9.5
@@ -6688,8 +6688,8 @@ packages:
       unique-string: 2.0.0
     dev: true
 
-  /terser-config-atomic@0.1.1:
-    resolution: {integrity: sha512-HRAHqjCFq990eFbLpy54joStSsUMZQoD73XMk2/Akquqm7vI0AOggfO9GMvSFGEucRRNZUfLQdDjotGGsZxCtA==}
+  /terser-config-atomic@1.0.0:
+    resolution: {integrity: sha512-WlhyFd4+honI08iaMxLg5P1eSg7RknCHzMI+AOwTNtMWkflGRrLHb7enbYmtpirUi05Tdun9wi/TNinNj4mrSg==}
     dev: true
 
   /terser@5.17.3:
@@ -7236,6 +7236,7 @@ packages:
 
   /workbox-google-analytics@6.5.4:
     resolution: {integrity: sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.4
       workbox-core: 6.5.4
