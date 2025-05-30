@@ -21,8 +21,8 @@ dependencies:
     specifier: ^2.2.9
     version: 2.2.9(solid-js@1.7.6)
   '@solid-primitives/i18n':
-    specifier: ^1.2.4
-    version: 1.2.4(solid-js@1.7.6)
+    specifier: ^2.0.0
+    version: 2.2.1(solid-js@1.7.6)
   '@solid-primitives/intersection-observer':
     specifier: ^2.0.10
     version: 2.0.10(solid-js@1.7.6)
@@ -1894,14 +1894,6 @@ packages:
       solid-js: 1.7.6
     dev: false
 
-  /@solid-primitives/context@0.2.1(solid-js@1.7.6):
-    resolution: {integrity: sha512-XIIwCOWpRKDersgkR9LNFXaJHIV8QlCFo/tq5bV0cAOZklcwOFcqi2bN+uWgEIQSWGjWXU2kc1H1/TzgYzVDlg==}
-    peerDependencies:
-      solid-js: 1.7.6
-    dependencies:
-      solid-js: 1.7.6
-    dev: false
-
   /@solid-primitives/date@2.0.10(solid-js@1.7.6):
     resolution: {integrity: sha512-undzO+NPZ7vubnEpl69Pl4Emkdx9OV4HQe1zWMiIG3Qpa3x5wchrrkTHGb567km7m2Qgk4BX0TRPt54DS+r2Gw==}
     peerDependencies:
@@ -1931,12 +1923,11 @@ packages:
       solid-js: 1.7.6
     dev: false
 
-  /@solid-primitives/i18n@1.2.4(solid-js@1.7.6):
-    resolution: {integrity: sha512-4phkfhFKAfKWWwN+U5M77P8lq65J5XljyjPkZSVzk+AI2OwpO5aDtKpDxiAMWSS8aYhnfJvlfCkIY7X7XDCDLw==}
+  /@solid-primitives/i18n@2.2.1(solid-js@1.7.6):
+    resolution: {integrity: sha512-TnTnE2Ku11MGYZ1JzhJ8pYscwg1fr9MteoYxPwsfxWfh9Jp5K7RRJncJn9BhOHvNLwROjqOHZ46PT7sPHqbcXw==}
     peerDependencies:
       solid-js: 1.7.6
     dependencies:
-      '@solid-primitives/context': 0.2.1(solid-js@1.7.6)
       solid-js: 1.7.6
     dev: false
 
@@ -7236,6 +7227,7 @@ packages:
 
   /workbox-google-analytics@6.5.4:
     resolution: {integrity: sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.4
       workbox-core: 6.5.4
