@@ -37,7 +37,7 @@
     "@types/shopify-buy": "npm:@brandboostinggmbh/shopify-buy-types@^2.14.6",
     "babel-preset-solid": "1.6.13",
     "fuse.js": "^6.6.2",
-    "github-slugger": "^1.5.0",
+    "github-slugger": "^2.0.0",
     "highlight.js": "^11.7.0",
     "monaco-editor": "0.33.0",
     "onigasm": "^2.2.5",
