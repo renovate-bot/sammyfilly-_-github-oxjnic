@@ -81,8 +81,8 @@ dependencies:
     specifier: ^1.7.11
     version: 1.7.11(solid-js@1.7.6)
   solid-heroicons:
-    specifier: ^2.0.3
-    version: 2.0.3(solid-js@1.7.6)
+    specifier: ^3.0.0
+    version: 3.2.4(solid-js@1.7.6)
   solid-js:
     specifier: 1.7.6
     version: 1.7.6
@@ -6255,6 +6255,14 @@ packages:
       solid-js: 1.7.6
     dev: false
 
+  /solid-heroicons@3.2.4(solid-js@1.7.6):
+    resolution: {integrity: sha512-u6BMdFLvkJnvUGYzdFcWp1wvJ4hb9Y1zd3AbZ9D3bUmmiy9jBzNZX+RcqBCI2EKRvdQwAb1UB9bkESfqfhayDg==}
+    peerDependencies:
+      solid-js: 1.7.6
+    dependencies:
+      solid-js: 1.7.6
+    dev: false
+
   /solid-js@1.7.6:
     resolution: {integrity: sha512-DXVOTjUh/bIAhE0fIqu3ezGLyQaez7v8EOw3uPLIi87DmLjg+hsuCAgKyNIZ+o4jUetOk3ZORccvJmE1yZUk8g==}
     dependencies:
@@ -7236,6 +7244,7 @@ packages:
 
   /workbox-google-analytics@6.5.4:
     resolution: {integrity: sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.4
       workbox-core: 6.5.4
