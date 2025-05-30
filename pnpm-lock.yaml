@@ -75,8 +75,8 @@ dependencies:
     specifier: ^2.0.13
     version: 2.0.13
   shopify-buy:
-    specifier: ^2.18.0
-    version: 2.18.0
+    specifier: ^3.0.0
+    version: 3.0.4
   solid-dismiss:
     specifier: ^1.7.11
     version: 1.7.11(solid-js@1.7.6)
@@ -6206,8 +6206,8 @@ packages:
     resolution: {integrity: sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==}
     dev: true
 
-  /shopify-buy@2.18.0:
-    resolution: {integrity: sha512-UaK/oegLRoeAHCfuYj+fVPfsdB8g6LoFdBg9YkSULDlzgWCHVBYWp+g4/1hYS1EZe0SRXFRkksf/3ESwFS8Nig==}
+  /shopify-buy@3.0.4:
+    resolution: {integrity: sha512-lDdX/43rAAs/3bQFbqTNrS4d50WDpqY60KvEEVTKyJXrQ+ZXX45ok3vC0iOisEyDAWN2/2HYXc3Iu45Rxkd4+w==}
     dev: false
 
   /side-channel@1.0.4:
@@ -7236,6 +7236,7 @@ packages:
 
   /workbox-google-analytics@6.5.4:
     resolution: {integrity: sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.4
       workbox-core: 6.5.4

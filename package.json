@@ -44,7 +44,7 @@
     "rehype-highlight": "^6.0.0",
     "remark-gfm": "^3.0.1",
     "scroll-behavior-polyfill": "^2.0.13",
-    "shopify-buy": "^2.18.0",
+    "shopify-buy": "^3.0.0",
     "solid-dismiss": "^1.7.11",
     "solid-heroicons": "^2.0.3",
     "solid-js": "1.7.6",
