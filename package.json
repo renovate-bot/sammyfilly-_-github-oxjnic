@@ -58,7 +58,7 @@
     "@aminya/minijson": "^0.6.2",
     "@mdx-js/rollup": "^2.3.0",
     "@tailwindcss/typography": "^0.5.9",
-    "@types/markdown-it": "^12.2.3",
+    "@types/markdown-it": "^14.0.0",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
     "autoprefixer": "^10.4.14",
