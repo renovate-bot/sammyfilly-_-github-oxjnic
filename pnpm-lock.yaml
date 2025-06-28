@@ -125,8 +125,8 @@ devDependencies:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.21)
   dotenv:
-    specifier: ^16.0.3
-    version: 16.0.3
+    specifier: ^17.0.0
+    version: 17.0.0
   eslint:
     specifier: ^8.37.0
     version: 8.37.0
@@ -3178,8 +3178,8 @@ packages:
       domhandler: 5.0.3
     dev: true
 
-  /dotenv@16.0.3:
-    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+  /dotenv@17.0.0:
+    resolution: {integrity: sha512-A0BJ5lrpJVSfnMMXjmeO0xUnoxqsBHWCoqqTnGwGYVdnctqXXUEhJOO7LxmgxJon9tEZFGpe0xPRX0h2v3AANQ==}
     engines: {node: '>=12'}
     dev: true
 
@@ -7236,6 +7236,7 @@ packages:
 
   /workbox-google-analytics@6.5.4:
     resolution: {integrity: sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.4
       workbox-core: 6.5.4
