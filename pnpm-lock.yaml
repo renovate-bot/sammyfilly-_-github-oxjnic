@@ -33,8 +33,8 @@ dependencies:
     specifier: ^2.0.12
     version: 2.0.12(solid-js@1.7.6)
   '@solid-primitives/storage':
-    specifier: ^2.0.0
-    version: 2.1.1(solid-js@1.7.6)
+    specifier: ^4.0.0
+    version: 4.3.3(solid-js@1.7.6)
   '@solid-primitives/utils':
     specifier: ^4.0.1
     version: 4.0.1(solid-js@1.7.6)
@@ -1918,7 +1918,7 @@ packages:
     peerDependencies:
       solid-js: 1.7.6
     dependencies:
-      '@solid-primitives/utils': 6.1.1(solid-js@1.7.6)
+      '@solid-primitives/utils': 6.2.1(solid-js@1.7.6)
       solid-js: 1.7.6
     dev: false
 
@@ -2012,20 +2012,23 @@ packages:
     peerDependencies:
       solid-js: 1.7.6
     dependencies:
-      '@solid-primitives/utils': 6.1.1(solid-js@1.7.6)
+      '@solid-primitives/utils': 6.2.1(solid-js@1.7.6)
       solid-js: 1.7.6
     dev: false
 
-  /@solid-primitives/storage@2.1.1(solid-js@1.7.6):
-    resolution: {integrity: sha512-GDbELt4Xjp0ySsHZ+RHzup0YIl1epHz8A2SVQYNRZPgkIEJk0Fyrt2vW6Etym2yUruTt8yT3d8106LVb71KIWg==}
+  /@solid-primitives/storage@4.3.3(solid-js@1.7.6):
+    resolution: {integrity: sha512-ACbNwMZ1s8VAvld6EUXkDkX/US3IhtlPLxg6+B2s9MwNUugwdd51I98LPEaHrdLpqPmyzqgoJe0TxEFlf3Dqrw==}
     peerDependencies:
+      '@tauri-apps/plugin-store': '*'
       solid-js: 1.7.6
-      solid-start: '>=0.2.26'
+      solid-start: '*'
     peerDependenciesMeta:
+      '@tauri-apps/plugin-store':
+        optional: true
       solid-start:
         optional: true
     dependencies:
-      '@solid-primitives/utils': 6.2.1(solid-js@1.7.6)
+      '@solid-primitives/utils': 6.3.2(solid-js@1.7.6)
       solid-js: 1.7.6
     dev: false
 
@@ -2063,6 +2066,14 @@ packages:
 
   /@solid-primitives/utils@6.2.1(solid-js@1.7.6):
     resolution: {integrity: sha512-TsecNzxiO5bLfzqb4OOuzfUmdOROcssuGqgh5rXMMaasoFZ3GoveUgdY1wcf17frMJM7kCNGNuK34EjErneZkg==}
+    peerDependencies:
+      solid-js: 1.7.6
+    dependencies:
+      solid-js: 1.7.6
+    dev: false
+
+  /@solid-primitives/utils@6.3.2(solid-js@1.7.6):
+    resolution: {integrity: sha512-hZ/M/qr25QOCcwDPOHtGjxTD8w2mNyVAYvcfgwzBHq2RwNqHNdDNsMZYap20+ruRwW4A3Cdkczyoz0TSxLCAPQ==}
     peerDependencies:
       solid-js: 1.7.6
     dependencies:
@@ -7236,6 +7247,7 @@ packages:
 
   /workbox-google-analytics@6.5.4:
     resolution: {integrity: sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.4
       workbox-core: 6.5.4
