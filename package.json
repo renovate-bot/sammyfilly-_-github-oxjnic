@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "@aminya/minijson": "^0.6.2",
-    "@mdx-js/rollup": "^2.3.0",
+    "@mdx-js/rollup": "^3.0.0",
     "@tailwindcss/typography": "^0.5.9",
     "@types/markdown-it": "^12.2.3",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
