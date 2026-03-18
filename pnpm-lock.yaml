@@ -42,8 +42,8 @@ dependencies:
     specifier: ^1.0.52
     version: 1.0.52(solid-js@1.7.6)
   '@solidjs/router':
-    specifier: ^0.8.2
-    version: 0.8.2(solid-js@1.7.6)
+    specifier: ^0.16.0
+    version: 0.16.1(solid-js@1.7.6)
   '@types/shopify-buy':
     specifier: npm:@brandboostinggmbh/shopify-buy-types@^2.14.6
     version: /@brandboostinggmbh/shopify-buy-types@2.14.6
@@ -2077,8 +2077,8 @@ packages:
       - solid-js
     dev: false
 
-  /@solidjs/router@0.8.2(solid-js@1.7.6):
-    resolution: {integrity: sha512-gUKW+LZqxtX6y/Aw6JKyy4gQ9E7dLqp513oB9pSYJR1HM5c56Pf7eijzyXX+b3WuXig18Cxqah4tMtF0YGu80w==}
+  /@solidjs/router@0.16.1(solid-js@1.7.6):
+    resolution: {integrity: sha512-IhyjedgC6LRpw/8CPGGI89FrV+r0xTHzOl2c4CRyzYQ1bLepJxbVI1LLKvsavMWY5TRBRacV7hAeOhuTXkjiqg==}
     peerDependencies:
       solid-js: 1.7.6
     dependencies:
@@ -6375,6 +6375,7 @@ packages:
   /source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
     dependencies:
       whatwg-url: 7.1.0
     dev: true
@@ -7236,6 +7237,7 @@ packages:
 
   /workbox-google-analytics@6.5.4:
     resolution: {integrity: sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.5.4
       workbox-core: 6.5.4
